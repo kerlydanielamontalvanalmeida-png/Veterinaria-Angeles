@@ -6,28 +6,34 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Veterinaria Ángeles de Cuatro Patas</h1>
 
-    <h2>Registro de Mascota</h2>
+    <div class="contenedor">
 
-    <form>
-        <label>Nombre de la mascota:</label>
-        <input type="text" id="mascota">
+        <h1>Veterinaria Ángeles de Cuatro Patas</h1>
 
-        <label>Dueño:</label>
-        <input type="text" id="dueno">
+        <h2>Registro de Mascota</h2>
 
-        <label>Estado:</label>
-        <select id="estado">
-            <option>Normal</option>
-            <option>Esterilizada</option>
-        </select>
+        <form>
+            <label>Nombre de la mascota:</label>
+            <input type="text" id="mascota">
 
-        <button type="button" onclick="registrarMascota()">Registrar</button>
-    </form>
+            <label>Dueño:</label>
+            <input type="text" id="dueno">
 
-    <p id="mensaje"></p>
+            <label>Estado:</label>
+            <select id="estado">
+                <option>Normal</option>
+                <option>Esterilizada</option>
+            </select>
+
+            <button type="button" onclick="registrarMascota()">Registrar</button>
+        </form>
+
+        <p id="mensaje"></p>
+
+    </div>
 
     <script src="script.js"></script>
+
 </body>
 </html>

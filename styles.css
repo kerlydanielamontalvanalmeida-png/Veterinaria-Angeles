@@ -1,11 +1,20 @@
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
-    background-color: #f4f4f4;
+    background-color: #f3dada; /* Fondo rosado */
+}
+
+.contenedor {
+    width: 600px;
+    margin: 0 auto;
 }
 
 h1 {
     color: #2c3e50;
+}
+
+h2 {
+    color: #000;
 }
 
 form {
@@ -18,10 +27,23 @@ form {
 label {
     display: block;
     margin-top: 10px;
+    font-weight: bold;
 }
 
-input, select, button {
+input,
+select,
+button {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+#mensaje {
+    margin-top: 15px;
+    font-weight: bold;
 }

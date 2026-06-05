@@ -1,2 +1,1 @@
-# Veterinaria-Angeles
-sistema Web de citas medicas para mascotas
+# Sistema Web Veterinaria Ángeles de Cuatro Patas
